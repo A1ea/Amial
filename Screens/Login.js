@@ -59,10 +59,15 @@ export default class Login extends Component {
             نسيت كلمة المرور؟</Text>
                 </TouchableOpacity>
 
+
+                        <Text>
+                        مستخدم جديد؟  </Text>
+
                 <TouchableOpacity 
                 onPress={()=> this.props.navigation.navigate('Registration')}>
-                    <Text>
-                        سجل كمستخدم جديد  </Text>
+                   
+                        <Text>
+                               تسجيل  </Text>
                 </TouchableOpacity>
                 </View>
   );
